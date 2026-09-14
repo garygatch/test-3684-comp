@@ -1,0 +1,78 @@
+{
+  "type": "component",
+  "name": "parent1",
+  "children": [],
+  "variables": [],
+  "bindings": [],
+  "modules": [],
+  "styles": [],
+  "directories": {
+    "assets": [],
+    "components": [
+      {
+        "id": "rPwUsDtzgEbkI-xFXYFJ7",
+        "name": "dir"
+      }
+    ],
+    "scripts": [
+      {
+        "id": "F6t7IYoMUyXkf3_AFOYYt",
+        "name": "dir"
+      }
+    ],
+    "stylesheets": [
+      {
+        "id": "7mgJeU9ORhVoH7IF-F9NW",
+        "name": "dir"
+      }
+    ]
+  },
+  "externalStylesheets": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css",
+      "parentDirectoryId": "7mgJeU9ORhVoH7IF-F9NW"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css"
+    }
+  ],
+  "externalScripts": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js",
+      "properties": {
+        "type": "default",
+        "executionMode": "default",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "default"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js",
+      "parentDirectoryId": "F6t7IYoMUyXkf3_AFOYYt",
+      "properties": {
+        "type": "default",
+        "executionMode": "default",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "default"
+      }
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "parent.css"
+    },
+    {
+      "path": "dir/parentDir.css",
+      "parentDirectoryId": "7mgJeU9ORhVoH7IF-F9NW"
+    }
+  ],
+  "localScripts": [
+    {
+      "path": "parent.js"
+    },
+    {
+      "path": "dir/c1.js",
+      "parentDirectoryId": "F6t7IYoMUyXkf3_AFOYYt"
+    }
+  ]
+}
